@@ -1,0 +1,22 @@
+.invalid {
+    color: white;
+    top: 200px;
+    position: absolute;
+    font-size: large;
+    width: 100%;
+    text-align: center;
+}
+
+.bossInfo {
+    color: white;
+    top: 200px;
+    position: absolute;
+    font-size: large;
+    width: 70%;
+    text-align: center;
+}
+
+.weaponAdvice {
+    position: absolute;
+    color: white;
+}
