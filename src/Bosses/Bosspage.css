@@ -7,16 +7,28 @@
     text-align: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+    width: 101%;
+    position: fixed;
+}
+
 .bossInfo {
     color: white;
-    top: 200px;
-    position: absolute;
+    position: relative;
     font-size: large;
     width: 70%;
     text-align: center;
 }
 
 .weaponAdvice {
-    position: absolute;
+    position: relative;
     color: white;
+    width: 70%;
+    text-align: center;
+    font-size: large;
 }

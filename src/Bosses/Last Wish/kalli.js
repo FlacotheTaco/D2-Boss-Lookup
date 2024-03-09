@@ -3,7 +3,6 @@ import TopBar from "../../TopBar";
 import '../../App.css';
 import BossSearchBar from "../bossSearchBar";
 import '../Bosspage.css';
-import '../../index.css';
 
 function Kalli() {
     return (
@@ -12,31 +11,23 @@ function Kalli() {
           <BossSearchBar/>
           <div className="container">
             <div className="bossInfo">
-              <p>Guardians will enter a large empty chamber whose layout is similar to that of the Blind Well. 
-                Near the center pit, three groups of two icons will appear to give six in total. Down, 
-                Cloud, Eight, and Infinity Snakes are the options One icon will not be shown. See the image below for reference
-              </p>
-                
-                <p> 
-                There will be a matching plate for each of the icons (I.e. Heads, Eights, and Smiles being shown. 
-                Two of each Smile, Head, and Eight plates must be captured. Each plate will have their symbol above or near the side of the plate. 
-                Each plate is divided into three sections. Two Taken Blight bombs will be above two of the sections. Stand on top of the empty section of the plate and defend as Taken Thrall attempt to overwhelm the team. 
-                If a plate is held long enough, a Ravenous Taken Knight will spawn. Killing the Taken Knight is required to "complete" a symbol.
-                Also be cautious, as Kalli will warp to a random plate and attack with blasts that will knock the player into the air, 
-                then "scream" at the player to knock them back. 
-                Simply shooting at Kalli will make her teleport away. Shortly after each plate has been captured, damage phase begins, 
-                and Kalli will enter the room's center area and attack with bolts and an ability similar to a Psion's Psionic Blast. 
-                Weapons that do not rely on precision damage are recommended, due to Kalli having a small head, unless your fireteam is using Divinity. 
-                After a short while, she will cast her weapon which will wipe the team. Before the spell is complete, 
-                each Guardian must run into one of the open doors on the side of the pit below Kalli, 
-                which are tied to the Ravenous Taken Knights. Ensure that you kill a the Knights to guarantee that a door will be open, or you will be wiped. 
-                If your team does not deplete her health, you must repeat cleansing plates to make Kalli vulnerable again. </p>
+              <h1> Boss Info </h1>
+              <p> The most recent stategy for defeating Kalli revolves around a cheese to kill her without having to do the mechanics. 
+                This is done by having a guardian use a damage over time weapon like Anarchy or Witherhoard to lock Kalli in place at one of the plates while damage is dealt. 
+                To do this, the other five guardians will gather at one of the plates and the guardian with the damage over time weapon will shoot start the encounter and then run to the plate.
+                When Kalli teleports to the plate, the guardian with the damage over time weapon will shoot Kalli to lock her into place and then the other five guardians will deal damage to her.
+                When Kalli's health bar is depleted, the team will stop shooting and wait for the encounter to end. 
+              </p>              
             </div>
-            {/*<div className="weaponAdvice">
+            <div className="weaponAdvice">
+              <h1> Loadout Recommendations </h1>
               <p> 
-              
-                </p>
-                </div>*/}
+                One person must run a damage over time weapon like Anarchy or Witherhoard to lock Kalli in place. 
+                The other five guardians should run a combination of high damage weapons and single hit supers. 
+                Using a loadout like Izanagi's Burden, Apex Predator, and a single hit super like Celestial Nighthawk Golden Gun will help to deal high damage to Kalli.
+                Surge mods are also recommded for maximizing damage output.
+              </p>
+            </div>
           </div>
       </div>
     );

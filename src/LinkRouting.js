@@ -1,4 +1,3 @@
-﻿
 const bossLinks = new Map();
 
 bossLinks.set("kalli", "kalli")
