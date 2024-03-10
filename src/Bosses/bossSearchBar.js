@@ -1,7 +1,7 @@
 // JavaScript source code
 import { useState } from 'react';
-import '../index.css';
 import Routing from '../LinkRouting';
+import '../index.css';
 
 const BossSearchBar = () => {
     const [searchInput, setSearchInput] = useState("");

@@ -14,7 +14,7 @@ code {
 .topBar {
     color: white;
     top: 0;
-    width: 101%;
+    width: 100%;
     background: rgb(48,44,52);
     left: 0px;
     position: absolute;
@@ -27,7 +27,7 @@ code {
     justify-content: center;
     align-items: center;
     height: 100%; 
-    width: 101%;
+    width: 100%;
 }
 
 .searchBar {
@@ -45,7 +45,7 @@ code {
 
 .lookupTable {
     top: 200px;
-    width: 100%;
+    width: 99%;
     text-align: center;
     padding: 10px;
     background-color: rgb(32,28,36);
