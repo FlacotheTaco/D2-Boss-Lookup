@@ -20,17 +20,19 @@ function Kalli() {
               When Kalli teleports to the plate, the guardian with the damage over time weapon will shoot Kalli again to lock her into place and then the other five guardians will deal damage to her.
               As damage is being dealt, the damage over time person will have to refresh the effect every 5-8 seconds. When Kalli's health bar is depleted, the team will stop shooting and wait for the encounter to end. 
             </p>
-            <h2>Video Demo</h2>
-            <YoutubeEmbed embedId="uXFrl-FleLU" />
         </div>
         <div className="weaponAdvice">
             <h1> Loadout Recommendations </h1>
             <p> 
-              One person must run a damage over time weapon like Anarchy or Witherhoard to lock Kalli in place. It's also recommded to have someone run a debuff weapon like Tractor Cannon to increase damage output.
-              The damage over time guardian and the weakening guardian should use fusion rifles or slug shotguns. The other five guardians should run a combination of high damage weapons and single hit supers. 
-              Using a loadout like Izanagi's Burden, Apex Predator, and a single hit super like Celestial Nighthawk Golden Gun will help to deal high damage to Kalli.
-              Surge mods are also recommded for maximizing damage output.
+              One person must run a damage over time weapon like Anarchy or Witherhoard to lock Kalli in place. 
+              It's also recommded to have someone run a debuff weapon like Tractor Cannon and another person using Gjallarhorn to increase damage output.
+              The other guardians should run a combination of rocket launches, high damage special weapons, and single hit supers.
+              A loadout like Izanagi's Burden, Apex Predator, and a single hit super like Celestial Nighthawk Golden Gun will help to deal high damage to Kalli.
+              Surge mods along with time dialation are also recommded for maximizing damage output. 
+              There should also be a Warlock using Well of Radiance for the survivability of the team.
             </p>
+            <h1>Video Demo</h1>
+            <YoutubeEmbed embedId="uXFrl-FleLU"/>
         </div>
       </div> 
     </div>
