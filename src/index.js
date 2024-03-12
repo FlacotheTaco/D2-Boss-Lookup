@@ -33,11 +33,11 @@ const router = createHashRouter([
       element: <App/>
     },
     {
-      path: "/kalli",
+      path: "/#kalli",
       element: <Kalli/>
     },
     {
-      path: "/shuro-chi",
+      path: "/#shuro-chi",
       element: <ShuroChi/>
     },
     {
