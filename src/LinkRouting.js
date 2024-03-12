@@ -30,10 +30,12 @@ function Routing(Search) {
             var win = "#" + bossLinks.get(Search);
             window.open(bossLinks);
         } else {
-            window.open(bossLinks.get("dne"));
+            var win = "#" + bossLinks.get("dne");
+            window.open(win);
         }
     } else {
-        window.open(bossLinks.get("dne"));
+        var win = "#" + bossLinks.get("dne");
+        window.open(win);
     }
 }
 export default Routing;
