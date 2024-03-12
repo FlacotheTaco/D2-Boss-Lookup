@@ -28,7 +28,7 @@ function Routing(Search) {
         console.log("is String");
         if (bossLinks.has(Search)) {
             var win = "#" + bossLinks.get(Search);
-            window.open(bossLinks);
+            window.open(win);
         } else {
             var win = "#" + bossLinks.get("dne");
             window.open(win);
