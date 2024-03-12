@@ -29,7 +29,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
     {
-      path: "https://flacothetaco.github.io/",
+      path: "/",
       element: <App/>
     },
     {
