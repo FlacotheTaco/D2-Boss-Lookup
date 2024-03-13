@@ -27,15 +27,15 @@ function Routing(Search) {
     if (typeof Search === 'string')  {
         console.log("is String");
         if (bossLinks.has(Search)) {
-            var win = "#" + bossLinks.get(Search);
-            window.open(win);
+            var winBoss = "#" + bossLinks.get(Search);
+            window.open(winBoss);
         } else {
-            var win = "#" + bossLinks.get("dne");
-            window.open(win);
+            var winError1 = "#" + bossLinks.get("dne");
+            window.open(winError1);
         }
     } else {
-        var win = "#" + bossLinks.get("dne");
-        window.open(win);
+        var winError2 = "#" + bossLinks.get("dne");
+        window.open(winError2);
     }
 }
 export default Routing;
