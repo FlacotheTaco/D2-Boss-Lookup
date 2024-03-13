@@ -27,15 +27,15 @@ function Routing(Search) {
     if (typeof Search === 'string')  {
         console.log("is String");
         if (bossLinks.has(Search)) {
-            //var winBoss = "#" + bossLinks.get(Search);
-            window.open(bossLinks.get(Search));
+            var winBoss = "#" + bossLinks.get(Search);
+            window.open(bossLinks.get(winBoss));
         } else {
-            //var winError1 = "#" + bossLinks.get("dne");
-            window.open(bossLinks.get("dne"));
+            var winError1 = "#" + bossLinks.get("dne");
+            window.open(bossLinks.get(winError1));
         }
     } else {
-        //var winError2 = "#" + bossLinks.get("dne");
-        window.open(bossLinks.get("dne"));
+        var winError2 = "#" + bossLinks.get("dne");
+        window.open(bossLinks.get(winError2));
     }
 }
 export default Routing;

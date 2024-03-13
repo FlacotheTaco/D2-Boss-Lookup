@@ -24,10 +24,10 @@ import IrYut from './Bosses/Crotas End/ir-yut';
 import Crota from './Bosses/Crotas End/crota';
 import InvalidInput from './Bosses/invalidInput';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
       path: "/",
       element: <App/>
