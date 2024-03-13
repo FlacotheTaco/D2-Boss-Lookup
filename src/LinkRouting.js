@@ -25,17 +25,17 @@ bossLinks.set("dne", "invalid")
 
 function Routing(Search) {
     if (typeof Search === 'string')  {
-        console.log("is String");
+        //console.log("is String");
         if (bossLinks.has(Search)) {
             var winBoss = "#" + bossLinks.get(Search);
-            window.open(bossLinks.get(winBoss));
+            window.open(winBoss);
         } else {
             var winError1 = "#" + bossLinks.get("dne");
-            window.open(bossLinks.get(winError1));
+            window.open(winError1);
         }
     } else {
         var winError2 = "#" + bossLinks.get("dne");
-        window.open(bossLinks.get(winError2));
+        window.open(winError2);
     }
 }
 export default Routing;
