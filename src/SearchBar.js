@@ -21,7 +21,7 @@ const SearchBar = () => {
         );
     }
     function handleSubmit(e) {
-        console.log("submit handled")
+        //console.log("submit handled")
         e.preventDefault();
         Routing(searchInput.toLowerCase());
         setSearchInput("");
