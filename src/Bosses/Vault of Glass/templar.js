@@ -13,7 +13,8 @@ function Templar() {
       <div className="bossInfo">
           <h1> Boss Info </h1>
           <p> 
-            Have 1 person do the mechanics and the rest of the team stands on a ledge to deal damage. When the Templar shield goes down, shoot the boss with a lot of damage.
+            Assign one person to use the relic and the other five people kill the surrounding enemies. When the relic holder breaks the Templar's shield, everyone will gather at the ledge at the spawn of the fight and deal damage.
+            Because Templar does not have much health, a one-phase should be very easy. As damage is being dealt, some people will be detained, but simply shooting the bubble will release the detain.
           </p>
       </div>
       <div className="weaponAdvice">
