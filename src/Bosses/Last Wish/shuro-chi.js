@@ -13,13 +13,11 @@ function ShuroChi() {
             <div className="bossInfo">
               <h1> Boss Info </h1>
               <p> 
-                Riven is the final boss of the Last Wish raid. The strategy for defeating Riven is to use the cheese method to kill her quickly without most of the mechanics.
-                To start the encounter, each player must stand on of the six glowing plates in the room. After the plates unlock, the players will drop down into a room with two exits.
-                All players will go through the exit beneath the door where the players originally entered the boss room. When the players are in the next room, one should look at the dark screen for a moving shadow.
-                If the shadow is there, the team should stay in that room. Otherwise, the team should go back to the exit room and hug the wall to get teleported back to the room with the plates.
-                The team should then go through the other exit and stay in that room. When Riven appears, the team should gather at her left leg and attack her with swords. 
-                When her health bar reaches the marker, the team will be teleported to a platforming room where they should attempt to get to the top of the room. After finishing the platforming,
-                the team will be teleported back to the enterance room where they should gather at the left leg of Riven again to kill her. When she is dead, enter her mouth and destroy her heart.
+                Shuro Chi is the second boss of the Last Wish raid. The encounter typically has a small group of people pre-load the plates before the encounter starts to remove a mechanic. 
+                To pre-load the plates, reach the plates before starting the encounter by jumping on the rock to the right of the encounter then running to the plates.
+                At the plates, first pull out an eager edge sword and wait for the eager edge buff to go away. Then, jump on the plate and wait for a few damage ticks.
+                Then, fall backwards off the plate and quickly jump back on using the sword. After jumping off the plate again, the plate should be glowing. 
+                Do this for the rest of the plates and the Shuro Chi encounter will start with the commands already accepted. 
               </p>
             </div>
             <div className="weaponAdvice">
@@ -30,7 +28,7 @@ function ShuroChi() {
                 For armor mods, triple surge mods, a time dialation mod, and triple lucent blades are recommended for maximizing damage output.
               </p>
               <h1>Video Demo</h1>
-              <YoutubeEmbed embedId="oauAOg69Ce8"/>
+              <YoutubeEmbed embedId="BmJnUeJ0D6I"/>
             </div>
           </div> 
       </div>
