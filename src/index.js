@@ -26,7 +26,15 @@ import InvalidInput from './Bosses/invalidInput';
 import reportWebVitals from './reportWebVitals';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 
-
+/*
+Creating the HashRouter for the website
+Too add another page, first import the page at the top of the file, then add a new object to the array below
+The formate is as follows:
+{
+  path: "/name-of-the-page",
+  element: <Name of the imported function/>
+}
+*/
 const router = createHashRouter([
     {
       path: "/",

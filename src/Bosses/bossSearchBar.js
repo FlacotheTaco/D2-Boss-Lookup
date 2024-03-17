@@ -3,6 +3,10 @@ import { useState } from 'react';
 import Routing from '../LinkRouting';
 import '../index.css';
 
+/*
+BOSS SEARCH BAR FOR BOSS PAGES
+DO NOT CHANGE UNLESS NECESSARY
+*/ 
 const BossSearchBar = () => {
     const [searchInput, setSearchInput] = useState("");
     let name = ""

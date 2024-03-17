@@ -11,6 +11,7 @@ code {
     monospace;
 }
 
+/*CSS for the top bar*/
 .topBar {
     color: white;
     top: 0;
@@ -21,6 +22,7 @@ code {
     text-align: center;
 }
 
+/*CSS for centering*/
 .container {
     display: flex;
     flex-direction: column;
@@ -30,6 +32,7 @@ code {
     width: 100%;
 }
 
+/*CSS for the search bar*/
 .searchBar {
     top: 100px;
     height: 5%;
@@ -43,6 +46,7 @@ code {
     color:white;
 }
 
+/*CSS for the table being updated by search bar*/
 .lookupTable {
     top: 200px;
     width: 99%;
@@ -54,6 +58,7 @@ code {
     color:white;
 }
 
+/*CSS for the submit button*/
 .submitButton {
     position: absolute;
     top: 150px;
@@ -67,11 +72,14 @@ code {
     color: white;
 }
 
+
+/*Remove the hyperlink visual of the logo*/
 .logo {
     text-decoration: none;
     color:white;
 }
 
+/*CSS for the info displayed in bosspages*/
 .info {
     color: white;
     position: fixed;
@@ -80,3 +88,4 @@ code {
     align-items:center;
     top: 180px;
 }
+

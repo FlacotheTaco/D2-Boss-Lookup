@@ -1,3 +1,9 @@
+/*
+Routing function to redirect to the correct page based on the search input
+To create a new boss page, add a new entry to the bossLinks map
+The key is the name of the boss in lowercase, the value is the name of the page
+Make sure the path exists in the index.js file
+*/
 const bossLinks = new Map();
 
 bossLinks.set("kalli", "kalli")

@@ -3,7 +3,9 @@ import '../App.css';
 import TopBar from '../TopBar';
 import './Bosspage.css';
 import BossSearchBar from './bossSearchBar';
-
+/*
+PAGE TO DISPLAY WHEN THE USER INPUTS AN INVALID BOSS
+*/
 const InvalidInput = () => {
     return (
         <div>

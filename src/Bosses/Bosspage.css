@@ -1,52 +1,52 @@
+
 .invalid {
-    color: white;
-    top: 200px;
-    position: absolute;
-    font-size: large;
-    width: 100%;
-    text-align: center;
+    color: white; /* Text color */
+    top: 200px; /* Distance from the top */
+    position: absolute; /* Positioned absolutely */
+    font-size: large; /* Font size */
+    width: 100%; /* Full width */
+    text-align: center; /* Center-align text */
 }
 
-
 .bossContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    top: 22%;    
-    align-items: center;
-    width: 100%;
-    position: absolute;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center; /* Center-align items vertically */
+    top: 22%; /* Distance from the top */
+    align-items: center; /* Center-align items horizontally */
+    width: 100%; /* Full width */
+    position: absolute; /* Positioned absolutely */
 }
 
 .bossInfo {
-    color: white;
-    position: relative;
-    font-size: large;
-    width: 70%;
-    text-align: center;
+    color: white; /* Text color */
+    position: relative; /* Positioned relatively */
+    font-size: large; /* Font size */
+    width: 70%; /* 70% width */
+    text-align: center; /* Center-align text */
 }
 
 .weaponAdvice {
-    position: relative;
-    color: white;
-    width: 70%;
-    text-align: center;
-    font-size: large;
+    position: relative; /* Positioned relatively */
+    color: white; /* Text color */
+    width: 70%; /* 70% width */
+    text-align: center; /* Center-align text */
+    font-size: large; /* Font size */
 }
 
 .ytvideo {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
+    overflow: hidden; /* Hide overflowing content */
+    padding-bottom: 56.25%; /* Maintain aspect ratio for embedded videos */
+    position: relative; /* Positioned relatively */
+    height: 0; /* Initial height of 0 */
 }
   
 .ytvideo iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    left: 0; /* Align iframe to the left */
+    top: 0; /* Align iframe to the top */
+    height: 100%; /* Full height */
+    width: 100%; /* Full width */
+    position: absolute; /* Positioned absolutely */
 }
   
   
