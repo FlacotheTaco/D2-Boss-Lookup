@@ -6,6 +6,7 @@ import '../index.css';
 /*
 BOSS SEARCH BAR FOR BOSS PAGES
 DO NOT CHANGE UNLESS NECESSARY
+See Searchbar.js for comments
 */ 
 const BossSearchBar = () => {
     const [searchInput, setSearchInput] = useState("");
