@@ -24,12 +24,12 @@ function Caretaker() {
             <p> 
               It's also recommded to have someone run a debuff weapon like Tractor Cannon and another person using Gjallarhorn to increase damage output.
               The other guardians should run a combination of rocket launches, high damage special weapons, and single hit supers.
-              A loadout like Izanagi's Burden, Apex Predator, and a single hit super like Celestial Nighthawk Golden Gun will help to deal high damage to Kalli.
+              A loadout like Izanagi's Burden, Apex Predator, and a single hit super like Celestial Nighthawk Golden Gun will help to deal high damage.
               Surge mods along with time dialation are also recommded for maximizing damage output. 
               There should also be a Warlock using Well of Radiance for the survivability of the team.
             </p>
             <h1>Video Demo</h1>
-            <YoutubeEmbed embedId="uXFrl-FleLU"/>
+            <YoutubeEmbed embedId="oauAOg69Ce8"/>
         </div>
       </div> 
     </div>
