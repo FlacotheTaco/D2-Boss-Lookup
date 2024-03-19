@@ -2,6 +2,7 @@ import React from "react";
 import TopBar from "../../TopBar";
 import '../../App.css';
 import BossSearchBar from "../bossSearchBar";
+import YoutubeEmbed from "../YoutubeEmbed";
 
 function Crota() {
     return (
